@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* Fix for all buttons */
+button,
+.btn {
+  background-color: #2563eb;
+  /* Professional blue */
+  color: white;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+/* Hover effects */
+button:hover,
+.btn:hover {
+  background-color: #1d4ed8;
+}
+
+/* Specific fix for footer Sign In */
+footer .btn {
+  background-color: #333;
+  /* Dark footer button */
+}
+
+/* Top-right login link as button */
+.navbar .login-link {
+  background: transparent;
+  color: #2563eb;
+  border: 2px solid #2563eb;
+  padding: 8px 16px;
+}
